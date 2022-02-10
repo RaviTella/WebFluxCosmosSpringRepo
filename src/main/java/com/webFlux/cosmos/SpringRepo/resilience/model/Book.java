@@ -6,7 +6,6 @@ import org.springframework.data.annotation.Id;
 
 import java.math.BigDecimal;
 
-@Container(containerName = "${container}")
 public class Book {
     @Id
     private String id;
